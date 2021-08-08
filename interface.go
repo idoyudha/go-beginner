@@ -23,6 +23,7 @@ func SayHello(hasname HasName) {
 	fmt.Println("Hello", hasname.GetName())
 }
 
+
 type Person struct {
 	Name string
 }
@@ -30,6 +31,7 @@ type Person struct {
 func (person Person) GetName() string {
 	return person.Name
 }
+
 
 type Animal struct {
 	Name string

@@ -11,7 +11,7 @@ func main() {
 	fmt.Println(ido)
 	fmt.Println(ido.Name, ido.Address, ido.Name)
 
-	naruto := Customer{
+	naruto := Customer {
 		Name:    "Naruto",
 		Address: "Konoha",
 		Age:     30,
